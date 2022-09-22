@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-item{
+    filter: brightness(45%);
+}
+.mi-carousel{
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    top: 30%;
+    color: #fff;
+    text-align: right;
+}
