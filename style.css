@@ -14,9 +14,6 @@
     color: #fff;
     text-align: right;
 }
-.conocimiento{
-
-}
 .java-script{
     background-color: #fec106;
 }
@@ -25,4 +22,12 @@
 }
 .startups{
     background-color: #dc3546;
+}
+
+.texto-honolulu{
+    background-color: #353a40;
+}
+
+.imagen-honolulu{
+    width: 100%;
 }
