@@ -31,3 +31,26 @@
 .imagen-honolulu{
     width: 100%;
 }
+
+.subrayado-puntos{
+    border-bottom:1px dotted #000000;
+}
+.mis-inputs{
+    border: gray solid 1px;
+    width: 20%;
+}
+.mi-textarea{
+    border: gray solid 1px;
+    width: 40%;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+.boton-enviar{
+    background-color: #93c93e;
+    width: 40%;
+}
+
+.mi-footer{
+    background-color: #1e4f6d !important;
+}
