@@ -1,56 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.carousel-item{
-    filter: brightness(45%);
+.link-conferencia:hover {
+  color: rgb(192, 190, 190) !important;
 }
-.mi-carousel{
-    position: absolute;
-    right: 15%;
-    bottom: 1.25rem;
-    left: 15%;
-    top: 30%;
-    color: #fff;
-    text-align: right;
+.link-comprar-tickets:hover {
+  color: #2ab373 !important ;
 }
-.java-script{
-    background-color: #fec106;
+.carousel-item {
+  filter: brightness(45%);
 }
-.react{
-    background-color: #17a2b9;
+.mi-carousel {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  top: 30%;
+  color: #fff;
+  text-align: right;
 }
-.startups{
-    background-color: #dc3546;
+.java-script {
+  background-color: #fec106;
 }
-
-.texto-honolulu{
-    background-color: #353a40;
+.react {
+  background-color: #17a2b9;
 }
-
-.imagen-honolulu{
-    width: 100%;
+.startups {
+  background-color: #dc3546;
 }
 
-.subrayado-puntos{
-    border-bottom:1px dotted #000000;
-}
-.mis-inputs{
-    border: gray solid 1px;
-    width: 20%;
-}
-.mi-textarea{
-    border: gray solid 1px;
-    width: 40%;
-}
-.row{
-    --bs-gutter-x: 0;
-}
-.boton-enviar{
-    background-color: #93c93e;
-    width: 40%;
+.texto-honolulu {
+  background-color: #353a40;
 }
 
-.mi-footer{
-    background-color: #1e4f6d !important;
+.imagen-honolulu {
+  width: 100%;
+}
+
+.subrayado-puntos {
+  border-bottom: 1px dotted #000000;
+}
+.mis-inputs {
+  border: gray solid 1px;
+  width: 20%;
+}
+.mi-textarea {
+  border: gray solid 1px;
+  width: 40%;
+}
+.row {
+  --bs-gutter-x: 0;
+}
+.boton-enviar {
+  width: 40%;
+}
+
+.mi-footer {
+  background-color: #1e4f6d !important;
+}
+.item-footer:hover {
+  color: rgb(192, 190, 190) !important;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .btn {
+    font-size: 13px;
+  }
+  a{
+    font-size: 13px;
+  }
 }
