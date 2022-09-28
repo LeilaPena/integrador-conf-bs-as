@@ -2,12 +2,17 @@
   margin: 0;
   padding: 0;
 }
+
+/*------------------------------------------- Navbar -------------------------------------------*/
 .link-conferencia:hover {
   color: rgb(192, 190, 190) !important;
 }
 .link-comprar-tickets:hover {
   color: #2ab373 !important ;
 }
+
+/*------------------------------------------- Carousel -------------------------------------------*/
+
 .carousel-item {
   filter: brightness(45%);
 }
@@ -20,9 +25,12 @@
   color: #fff;
   text-align: right;
 }
-.parrafo-sin-br{
-    display: none;
+.parrafo-sin-br {
+  display: none;
 }
+
+/*------------------------------------------- Cards -------------------------------------------*/
+
 .java-script {
   background-color: #fec106;
 }
@@ -33,6 +41,8 @@
   background-color: #dc3546;
 }
 
+/*------------------------------------------- Sección información -------------------------------------------*/
+
 .texto-honolulu {
   background-color: #353a40;
 }
@@ -40,6 +50,8 @@
 .imagen-honolulu {
   width: 100%;
 }
+
+/*------------------------------------------- Formulario -------------------------------------------*/
 
 .subrayado-puntos {
   border-bottom: 1px dotted #000000;
@@ -59,12 +71,16 @@
   width: 40%;
 }
 
+/*------------------------------------------- Footer -------------------------------------------*/
+
 .mi-footer {
   background-color: #1e4f6d !important;
 }
 .item-footer:hover {
   color: rgb(192, 190, 190) !important;
 }
+
+/*------------------------ Media query para tablet y celular landscape -------------------------*/
 
 @media (min-width: 576px) and (max-width: 1024px) {
   h1 {
@@ -76,51 +92,57 @@
   .btn {
     font-size: 13px;
   }
-  a{
+  a {
     font-size: 13px;
   }
-  .mis-inputs{
+  .mis-inputs {
     width: 30%;
-}
-.mi-textarea{
+  }
+  .mi-textarea {
     width: 60%;
+  }
 }
-}
-@media (max-width: 575px){
-    h1 {
-        font-size: 15px;
-      }
-      p {
-        font-size: 10px;
-      }
-      .btn {
-        font-size: 7px;
-      }
-      a{
-        font-size: 13px;
-      }
-      h5{
-        font-size: 15px;
-      }
-      .java-script, .react, .startups, .negocios{
-        font-size: 10px;
-      }
-    .mi-carousel{
-        top: 0%;
-        right: 0%;
-        left: 0%;
-        padding: 2%;
-    }
-    .parrafo-sin-br{
-        display: inline-block;
-    }
-    .parrafo-con-br{
-        display: none;
-    }
-    .mis-inputs{
-        width: 50%;
-    }
-    .mi-textarea{
-        width: 90%;
-    }
+
+/*----------------------------------- Media query para celular ---------------------------------------------*/
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .btn {
+    font-size: 7px;
+  }
+  a {
+    font-size: 13px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  .java-script,
+  .react,
+  .startups,
+  .negocios {
+    font-size: 10px;
+  }
+  .mi-carousel {
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    padding: 2%;
+  }
+  .parrafo-sin-br {
+    display: inline-block;
+  }
+  .parrafo-con-br {
+    display: none;
+  }
+  .mis-inputs {
+    width: 50%;
+  }
+  .mi-textarea {
+    width: 90%;
+  }
 }
