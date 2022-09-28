@@ -20,6 +20,9 @@
   color: #fff;
   text-align: right;
 }
+.parrafo-sin-br{
+    display: none;
+}
 .java-script {
   background-color: #fec106;
 }
@@ -63,7 +66,7 @@
   color: rgb(192, 190, 190) !important;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 576px) and (max-width: 1024px) {
   h1 {
     font-size: 20px;
   }
@@ -76,4 +79,48 @@
   a{
     font-size: 13px;
   }
+  .mis-inputs{
+    width: 30%;
+}
+.mi-textarea{
+    width: 60%;
+}
+}
+@media (max-width: 575px){
+    h1 {
+        font-size: 15px;
+      }
+      p {
+        font-size: 10px;
+      }
+      .btn {
+        font-size: 7px;
+      }
+      a{
+        font-size: 13px;
+      }
+      h5{
+        font-size: 15px;
+      }
+      .java-script, .react, .startups, .negocios{
+        font-size: 10px;
+      }
+    .mi-carousel{
+        top: 0%;
+        right: 0%;
+        left: 0%;
+        padding: 2%;
+    }
+    .parrafo-sin-br{
+        display: inline-block;
+    }
+    .parrafo-con-br{
+        display: none;
+    }
+    .mis-inputs{
+        width: 50%;
+    }
+    .mi-textarea{
+        width: 90%;
+    }
 }
