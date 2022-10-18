@@ -6,14 +6,11 @@
   display: none;
 }
 /*------------------------------------------- Navbar -------------------------------------------*/
-.link-conferencia:hover {
-  color: rgb(192, 190, 190) !important;
-}
 .link-comprar-tickets:hover {
-  color: #2ab373 !important ;
+  color: #2ab373 !important;
 }
 .color-verde{
-  color: #2ab373 !important
+  color: #2ab373 !important;
 }
 /*------------------------------------------- Carousel -------------------------------------------*/
 
@@ -73,6 +70,22 @@
 }
 .boton-enviar {
   width: 40%;
+}
+/*------------------------------------------- Form Tickets -------------------------------------------*/
+.form-tickets, .contenedor-inputs-tickets, .botones-tickets{
+  width: 50%;
+}
+.inputs-tickets{
+  width: 50%;
+  border: gray solid 1px;
+}
+.input-mail{
+  width: 100%;
+  border: gray solid 1px;
+}
+.texto-pago-total{
+  background-color: #cce5ff;
+  color: #1c579e;
 }
 
 /*------------------------------------------- Footer -------------------------------------------*/

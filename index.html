@@ -61,8 +61,10 @@
               <a class="nav-link">Conviértete en orador</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-success link-comprar-tickets" href="#"
-              id="boton-comprar-tickets"
+              <a
+                class="nav-link text-success link-comprar-tickets"
+                href="#"
+                id="boton-comprar-tickets"
                 >Comprar tickets</a
               >
             </li>
@@ -117,9 +119,7 @@
             <button class="btn btn-success">Comprar tickets</button>
           </div>
         </div>
-
         <!---------------------------- seccion cards -------------------------------->
-
         <section>
           <p class="mt-3 text-center">
             CONOCE A LOS <br />
@@ -189,9 +189,7 @@
             </div>
           </div>
         </section>
-
         <!----------------------------- sección informacion ----------------------------------->
-
         <section class="d-flex">
           <div class="row">
             <div class="col-md-6">
@@ -216,9 +214,7 @@
             </div>
           </div>
         </section>
-
         <!-------------------------------- sección formulario ----------------------------------->
-
         <section>
           <p class="mt-3 text-center">
             CONVIÉRTETE EN UN <br />
@@ -262,7 +258,10 @@
         </section>
       </section>
       <!------------------------------------ Sección comprar tickets  ---------------------------------------------->
-      <section id="seccion-comprar-tickets" class="seccion-comprar-tickets py-5">
+      <section
+        id="seccion-comprar-tickets"
+        class="seccion-comprar-tickets py-5"
+      >
         <div class="d-flex justify-content-center">
           <div class="card border-primary mx-3 rounded-0" style="width: 18rem">
             <div class="card-body">
@@ -288,8 +287,62 @@
               <p class="text-center text-secondary">*presentar documentación</p>
             </div>
           </div>
-          
         </div>
+        <section class="justify-content-center d-flex">
+          <div class="form-tickets">
+            <p class="mt-3 text-center">VENTA <br /></p>
+            <p class="text-center fw-semibold fs-1">VALOR DE TICKET $200</p>
+            <form class="d-flex justify-content-center flex-column">
+              <div class="d-flex justify-content-between">
+                <input
+                  type="text"
+                  placeholder="Nombre"
+                  class="rounded inputs-tickets p-1 me-2"
+                  required
+                />
+                <input
+                  type="text"
+                  placeholder="Apellido"
+                  class="rounded inputs-tickets p-1"
+                  required
+                />
+              </div>
+              <input
+                type="email"
+                placeholder="Correo"
+                class="input-mail rounded p-1 my-3"
+                required
+              />
+              <div class="d-flex justify-content-between">
+                <div class="d-flex flex-column contenedor-inputs-tickets me-2">
+                  <label for="inputCantidad">Cantidad</label>
+                  <input
+                    type="number"
+                    id="inputCantidad"
+                    placeholder="Cantidad"
+                    class="input-mail p-1 rounded"
+                  required
+                  />
+                </div>
+                <div class="d-flex flex-column contenedor-inputs-tickets">
+                  <label for="inputCategoria">Categoria</label>
+                  <select id="inputCategoria" class="p-1 rounded" required>
+                    <option value="estudiante">Estudiante</option>
+                    <option value="trainee">Trainee</option>
+                    <option value="junior">Junior</option>
+                  </select>
+                </div>
+              </div>
+              <p class="my-4 texto-pago-total p-3 rounded">
+                Total a Pagar: $<span></span>
+              </p>
+              <div class="d-flex">
+                <button class="botones-tickets me-1 btn btn-success">Borrar</button
+                ><button type="submit" class="botones-tickets btn btn-success">Resumen</button>
+              </div>
+            </form>
+          </div>
+        </section>
       </section>
     </main>
     <!-------------------------------------- footer ---------------------------------------------->
