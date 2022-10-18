@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.seccion-comprar-tickets{
+#seccion-conferencia{
   display: none;
 }
 /*------------------------------------------- Navbar -------------------------------------------*/
@@ -91,7 +91,7 @@
 /*------------------------------------------- Footer -------------------------------------------*/
 
 .mi-footer {
-  background-color: #1e4f6d !important;
+  background: linear-gradient(90deg,#1f3744,#1e5270 );
 }
 .item-footer:hover {
   color: rgb(192, 190, 190) !important;
