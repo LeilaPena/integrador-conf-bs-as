@@ -299,14 +299,14 @@
                   placeholder="Nombre"
                   class="rounded inputs-tickets p-1 me-2"
                   id="input-tickets-nombre"
-                  required
+                
                 />
                 <input
                   type="text"
                   placeholder="Apellido"
                   class="rounded inputs-tickets p-1"
                   id="input-tickets-apellido"
-                  required
+                
                 />
               </div>
               <input
@@ -314,7 +314,7 @@
                 placeholder="Correo"
                 class="input-mail rounded p-1 my-3"
                 id="input-tickets-email"
-                required
+              
               />
               <div class="d-flex justify-content-between">
                 <div class="d-flex flex-column contenedor-inputs-tickets me-2">
@@ -326,12 +326,12 @@
                     class="input-mail p-1 rounded"
                     min="0"
                     value="0"
-                  required
+                
                   />
                 </div>
                 <div class="d-flex flex-column contenedor-inputs-tickets">
                   <label for="select-tickets-categoria">Categoria</label>
-                  <select id="select-tickets-categoria" class="p-1 rounded" required>
+                  <select id="select-tickets-categoria" class="p-1 rounded">
                     <option value="estudiante">Estudiante</option>
                     <option value="trainee">Trainee</option>
                     <option value="junior">Junior</option>
@@ -339,12 +339,13 @@
                 </div>
               </div>
               <p class="my-4 texto-pago-total p-3 rounded">
-                Total a Pagar: $<span></span>
+                Total a Pagar: $<span id="span-pago-total"></span>
               </p>
               <div class="d-flex">
                 <button class="botones-tickets me-1 btn btn-success" id="boton-tickets-borrar">Borrar</button
-                ><button type="submit" class="botones-tickets btn btn-success" id="boton-tickets-resumen">Resumen</button>
+                ><button class="botones-tickets btn btn-success" id="boton-tickets-resumen">Resumen</button>
               </div>
+              <p class="text-center mt-3 invisible text-danger" id="texto-campos-obligatorios">Recorda que todos los campos son obligatorios</p>
             </form>
           </div>
         </section>

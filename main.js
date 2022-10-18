@@ -11,6 +11,8 @@ const inputTicketsCantidad = document.getElementById('input-tickets-cantidad');
 const selectTicketsCategoria = document.getElementById('select-tickets-categoria');
 const botonTicketsBorrar = document.getElementById('boton-tickets-borrar');
 const botonTicketsResumen = document.getElementById('boton-tickets-resumen');
+const spanPagoTotal = document.getElementById('span-pago-total');
+const textoCamposObligatorios = document.getElementById('texto-campos-obligatorios');
 
 // Botones para ver cada sección
 
@@ -37,3 +39,28 @@ botonTicketsBorrar.addEventListener('click', (e) =>{
     inputTicketsCantidad.value = 0;
     selectTicketsCategoria.value = "estudiante";
 })
+
+// Funcionalidad boton resumen
+
+botonTicketsResumen.addEventListener('click', (e) => {
+    e.preventDefault()
+    let textoPagoTotal = '';
+    if(inputTicketsNombre.value.length !== 0 && inputTicketsApellido.value.length !== 0 && inputTicketsEmail.value.length !== 0 ){
+        if (selectTicketsCategoria.value === 'estudiante'){
+            textoPagoTotal = (200 - 200*80/100)*inputTicketsCantidad.value
+        }
+        if (selectTicketsCategoria.value === 'trainee'){
+            textoPagoTotal = (200 - 200*50/100)*inputTicketsCantidad.value
+        }
+        if (selectTicketsCategoria.value === 'junior'){
+            textoPagoTotal = (200 - 200*15/100)*inputTicketsCantidad.value
+        }
+        textoCamposObligatorios.classList.add('invisible')
+        spanPagoTotal.innerHTML= textoPagoTotal
+    }
+    else{
+        textoCamposObligatorios.classList.remove('invisible')
+        spanPagoTotal.innerHTML= '';
+    }    
+})
+
