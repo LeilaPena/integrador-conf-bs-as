@@ -126,7 +126,7 @@
   h1 {
     font-size: 15px;
   }
-  p {
+  p, input, select, label {
     font-size: 10px;
   }
   .btn {
@@ -161,5 +161,11 @@
   }
   .mi-textarea {
     width: 90%;
+  }
+  .form-tickets{
+    width: 98%;
+  }
+  .valor-ticket{
+    font-size: 18px !important;
   }
 }
