@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+.seccion-comprar-tickets{
+  display: none;
+}
 /*------------------------------------------- Navbar -------------------------------------------*/
 .link-conferencia:hover {
   color: rgb(192, 190, 190) !important;
@@ -10,7 +12,9 @@
 .link-comprar-tickets:hover {
   color: #2ab373 !important ;
 }
-
+.color-verde{
+  color: #2ab373 !important
+}
 /*------------------------------------------- Carousel -------------------------------------------*/
 
 .carousel-item {
