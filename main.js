@@ -13,21 +13,25 @@ const botonTicketsBorrar = document.getElementById('boton-tickets-borrar');
 const botonTicketsResumen = document.getElementById('boton-tickets-resumen');
 const spanPagoTotal = document.getElementById('span-pago-total');
 const textoCamposObligatorios = document.getElementById('texto-campos-obligatorios');
+const carrouselComprarTickets = document.getElementById('carrousel-comprar-tickets');
+
 
 // Botones para ver cada sección
 
+const comprarTickets = () =>{
+    seccionConferencia.style.display='none';
+    seccionComprarTickets.style.display='block';
+    botonConferencia.classList.remove('active');
+    botonComprarTickets.classList.add('color-verde');
+}
 botonConferencia.addEventListener('click',()=>{
     seccionComprarTickets.style.display='none';
     seccionConferencia.style.display='block';
     botonConferencia.classList.add('active');
     botonComprarTickets.classList.remove('color-verde');
 })
-botonComprarTickets.addEventListener('click',()=>{
-    seccionConferencia.style.display='none';
-    seccionComprarTickets.style.display='block';
-    botonConferencia.classList.remove('active');
-    botonComprarTickets.classList.add('color-verde');
-})
+botonComprarTickets.addEventListener('click',comprarTickets)
+carrouselComprarTickets.addEventListener('click', comprarTickets)
 
 // Funcionalidad boton borrar inputs
 
