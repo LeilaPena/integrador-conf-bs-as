@@ -71,6 +71,23 @@
 .boton-enviar {
   width: 40%;
 }
+/*------------------------------------------- Form Tickets -------------------------------------------*/
+.form-tickets, .contenedor-inputs-tickets, .botones-tickets{
+  width: 50%;
+}
+.inputs-tickets{
+  width: 50%;
+  border: gray solid 1px;
+}
+.input-mail{
+  width: 100%;
+  border: gray solid 1px;
+}
+.texto-pago-total{
+  background-color: #cce5ff;
+  color: #1c579e;
+}
+
 /*------------------------------------------- Footer -------------------------------------------*/
 
 .mi-footer {
@@ -121,6 +138,12 @@
   h5 {
     font-size: 15px;
   }
+  .java-script,
+  .react,
+  .startups,
+  .negocios {
+    font-size: 10px;
+  }
   .mi-carousel {
     top: 0%;
     right: 0%;
@@ -138,5 +161,11 @@
   }
   .mi-textarea {
     width: 90%;
+  }
+  .form-tickets{
+    width: 98%;
+  }
+  .valor-ticket{
+    font-size: 18px !important;
   }
 }
